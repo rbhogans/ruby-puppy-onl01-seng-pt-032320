@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Dog 
  
   @@all = []
@@ -40,3 +41,24 @@ def self.print_all
 	end
 	
 	
+=======
+class Dog 
+  @@all = []
+ 
+     attr_accessor :name
+ 
+ def initialize(name)
+   @name = name
+   @@all << self
+ end
+  def self.all
+   @@all
+ end
+  def self.clear_all
+   @@all.clear
+ end
+ dog.r
+end
+
+# Add your code here
+>>>>>>> 3f7199382716c4c73269486ff1dad80a09fcee8a
